@@ -2,6 +2,11 @@
 
 🤓 Sujet de veille technique "[Mercure](https://mercure.rocks/)" 
 
+## Create database
+
+```shell
+touch database/database.sqlite
+```
 
 ## Installation
 

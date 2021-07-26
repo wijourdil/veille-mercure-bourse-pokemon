@@ -19,3 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('pokemon/random', 'PokemonController@random');
+Route::post('pokemon/trade', 'PokemonController@proposeToTrade');
+Route::delete('pokemon/trade/{trainer_id}/{pokemon_id}', 'PokemonController@cancelTrade');
+Route::get('pokemon/all', 'PokemonController@all');
